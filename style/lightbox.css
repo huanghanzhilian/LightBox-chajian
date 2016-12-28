@@ -8,14 +8,16 @@
 	opacity: 0.5;
 	filter: alpha(opacity:50);
 	z-index: 10000;
+	display: none;
 }
 #G-lightbox-popup {
 	position: fixed;
 	left: 50%;
-	top: 0;
-	margin-left: -150px;
-	width: 300px;
+	top: 50px;
+	margin-left: -200px;
+	width: 400px;
 	z-index: 10001;
+	display: none;
 }
 #G-lightbox-popup .lightbox-pic-view {
 	position: relative;
@@ -53,6 +55,7 @@
 	background-color: rgba(0,0,0,0.5);
 	margin: 0 5px;
 	margin-top: -60px;
+	z-index: 2;
 }
 #G-lightbox-popup .lightbox-pic-caption .lightbox-caption-area {
 	color: #fff;
