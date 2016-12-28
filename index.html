@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>插件开发</title>
+	<link rel="stylesheet" type="text/css" href="style/public.css">
+	<link rel="stylesheet" type="text/css" href="style/lightbox.css">
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/lightbox.js"></script>
+</head>
+<body>
+	class="js-lightbox"表示这个元素要启用lightbox<br>
+	data-role="lightbox"表示这个元素要启用lightbox<br>
+	data-source="images/2-1.jpg"原图地址<br>
+	data-group="group-2"标示当前组别<br>
+	data-id="hjhgjjr"图片的唯一标示<br>
+	data-caption="srtaddfff"当前图片描述文字<br>
+
+	<h1>1组图片</h1>
+	<div>
+		<img class="js-lightbox"
+			data-role="lightbox"
+			data-source="images/1-1.jpg"
+			src="images/1-1.jpg"
+			data-group="group-1"
+			data-id="kwhdiuqwdhiu"
+			data-caption="kwhdiuqwdhiusssswwe"
+			width="100" height="100">
+		<img class="js-lightbox"
+			data-role="lightbox"
+			data-source="images/1-2.jpg"
+			src="images/1-2.jpg"
+			data-group="group-1"
+			data-id="gdttrhuhye"
+			data-caption="rtreytrhdd"
+			width="100" height="100">
+		<img class="js-lightbox"
+			data-role="lightbox"
+			data-source="images/1-3.jpg"
+			src="images/1-3.jpg"
+			data-group="group-1"
+			data-id="ewrwersds"
+			data-caption="fhfjjtsss"
+			width="100" height="100">
+		<img class="js-lightbox"
+			data-role="lightbox"
+			data-source="images/1-4.jpg"
+			src="images/1-4.jpg"
+			data-group="group-1"
+			data-id="ddddfdzsf"
+			data-caption="fdfsdfgfddh"
+			width="100" height="100">
+		<img class="js-lightbox"
+			data-role="lightbox"
+			data-source="images/1-5.jpg"
+			src="images/1-5.jpg"
+			data-group="group-1"
+			data-id="fgthyhj"
+			data-caption="fsaaaaa"
+			width="100" height="100">
+		<img class="js-lightbox"
+			data-role="lightbox"
+			data-source="images/1-6.jpg"
+			src="images/1-6.jpg"
+			data-group="group-1"
+			data-id="lkjlkj"
+			data-caption="klklkn;jkljtsss"
+			width="100" height="100">
+	</div>
+
+	<h1>2组图片</h1>
+	<div>
+		<img class="js-lightbox"
+			data-role="lightbox"
+			data-source="images/2-1.jpg"
+			src="images/2-1.jpg"
+			data-group="group-2"
+			data-id="hjhgjjr"
+			data-caption="srtaddfff"
+			width="100" height="100">
+		<img class="js-lightbox"
+			data-role="lightbox"
+			data-source="images/2-2.jpg"
+			src="images/2-2.jpg"
+			data-group="group-2"
+			data-id="dfhygu"
+			data-caption="fygtrj"
+			width="100" height="100">
+		<img class="js-lightbox"
+			data-role="lightbox"
+			data-source="images/2-3.jpg"
+			src="images/2-3.jpg"
+			data-group="group-2"
+			data-id="llkl;"
+			data-caption="dhdytk"
+			width="100" height="100">
+		<img class="js-lightbox"
+			data-role="lightbox"
+			data-source="images/2-4.jpg"
+			src="images/2-4.jpg"
+			data-group="group-2"
+			data-id="sfrsgttrjytk"
+			data-caption="trjytjkuk"
+			width="100" height="100">
+		<img class="js-lightbox"
+			data-role="lightbox"
+			data-source="images/2-5.jpg"
+			src="images/2-5.jpg"
+			data-group="group-2"
+			data-id="ghjyjy"
+			data-caption="gdfhgdsh"
+			width="100" height="100">
+	</div>
+
+	<!-- 遮罩
+	<div id="G-lightbox-mask"></div>-->
+	<!-- 弹出层
+	<div id="G-lightbox-popup">
+		<div class="lightbox-pic-view">
+			<span class="lightbox-btn lightbox-prev-btn lightbox-prev-btn-show"></span>
+			<img class="lightbox-image" src="images/1-1.jpg" width="100%" alt="">
+			<span class="lightbox-btn lightbox-next-btn lightbox-next-btn-show"></span>
+		</div>
+		<div class="lightbox-pic-caption">
+			<div class="lightbox-caption-area">
+				<p class="lightbox-pic-desc">图片标题</p>
+				<span class="lightbox-of-index">当前索引:1 of 4</span>
+			</div>
+			<span class="lightbox-close-btn"></span>
+		</div>
+	</div>-->
+	<script type="text/javascript">
+		$(function(){
+			var lightbox=new LightBox();
+			console.log(lightbox)
+		})
+	</script>
+</body>
+</html>
